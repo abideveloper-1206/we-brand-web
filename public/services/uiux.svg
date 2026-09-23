@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e2f4f7"/>
+      <stop offset="100%" stop-color="#cdebf1"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#0b6e97"/>
+    </pattern>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0b6e97" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="640" height="520" fill="url(#bg)"/>
+  <rect x="30" y="360" width="150" height="120" fill="url(#dots)" opacity="0.5"/>
+  <path d="M96,66 C206,4 430,-8 526,74 C630,162 602,330 536,408 C468,488 292,522 176,470 C58,418 10,296 34,214 C56,138 8,116 96,66 Z" fill="#a9dce6" opacity="0.5"/>
+
+  <g filter="url(#soft)">
+    <rect x="240" y="90" width="200" height="340" rx="34" fill="#ffffff"/>
+  </g>
+  <rect x="258" y="126" width="164" height="270" rx="14" fill="#e2f4f7"/>
+  <rect x="272" y="142" width="90" height="14" rx="7" fill="#0b6e97"/>
+  <rect x="272" y="168" width="136" height="40" rx="10" fill="#ffffff"/>
+  <rect x="272" y="220" width="136" height="66" rx="10" fill="#ffffff"/>
+  <rect x="272" y="298" width="64" height="24" rx="12" fill="#0b6e97"/>
+
+  <g filter="url(#soft)" transform="translate(430,330)">
+    <path d="M-10,-40 L34,4 L8,8 L20,40 L4,46 L-8,14 L-30,26 Z" fill="#0b6e97"/>
+  </g>
+
+  <g filter="url(#soft)" transform="translate(178,130)">
+    <rect x="-32" y="-32" width="64" height="64" rx="18" fill="#ffffff"/>
+    <polygon points="0,-14 18,-2 0,10 -18,-2" fill="#0b6e97"/>
+    <polygon points="0,-2 18,10 0,22 -18,10" fill="#0b6e97" opacity="0.5"/>
+  </g>
+  <g filter="url(#soft)" transform="translate(486,414)">
+    <rect x="-30" y="-30" width="60" height="60" rx="16" fill="#0b6e97"/>
+    <path d="M-14,-14 L14,-14 L14,14 L-14,14 Z M-14,-4 L14,-4 M-14,4 L14,4 M-4,-14 L-4,14 M4,-14 L4,14" stroke="#fff" stroke-width="2" fill="none"/>
+  </g>
+</svg>
